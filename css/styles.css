@@ -99,3 +99,13 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+.info-team .info-company {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
