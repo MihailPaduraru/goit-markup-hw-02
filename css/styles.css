@@ -126,7 +126,9 @@ ul {
 .phone-number:hover,
 .active:focus,
 .email:focus,
-.phone-number:focus {
+.phone-number:focus,
+.contact-details:focus,
+.contact-details:hover {
   color: var(--link-color);
 }
 
