@@ -2,6 +2,7 @@
   --link-color: #2196f3;
   --text-font-family: "Roboto", sans-serif;
   --heading-font-family: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
   --background-color: #2196f3;
 }
 
@@ -12,7 +13,7 @@ body {
 .logo-web {
   color: #2196f3;
   font-size: 26px;
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -102,7 +103,8 @@ ul {
   letter-spacing: 0.42px;
 }
 
-.phone-number .email {
+.global-header .phone-number,
+.email {
   color: #757575;
   font-size: 14px;
   font-family: var(--text-font-family);
@@ -110,6 +112,26 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+.our-team .person-name {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.our-team .job-title {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .info-team .info-company {
   color: #212121;
@@ -135,4 +157,15 @@ ul {
 .button:hover,
 .button:focus {
   background-color: var(--background-color);
+}
+.info-footer,
+.contact-details {
+  background: #2f303a;
+  color: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
 }
