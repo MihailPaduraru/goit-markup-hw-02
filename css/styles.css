@@ -1,5 +1,6 @@
 :root {
   --link-color: #2196f3;
+  --titles-color: #212121;
   --text-font-family: "Roboto", sans-serif;
   --heading-font-family: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -20,7 +21,7 @@ body {
   letter-spacing: 0.78px;
 }
 .global-header {
-  color: #212121;
+  color: var(--titles-color);
   font-size: 14px;
   font-family: var(--text-font-family);
   font-style: normal;
@@ -54,7 +55,7 @@ ul {
 }
 .button .main-navigation {
   background: #fff;
-  color: #212121;
+  color: var(--titles-color);
   font-size: 14px;
   font-family: var(--text-font-family);
   font-style: normal;
@@ -84,7 +85,7 @@ ul {
 }
 
 .points-title {
-  color: #212121;
+  color: var(--titles-color);
   font-size: 14px;
   font-family: var(--heading-font-family);
   font-style: normal;
@@ -114,7 +115,7 @@ ul {
   letter-spacing: 0.28px;
 }
 .our-team .person-name {
-  color: #212121;
+  color: var(--titles-color);
   text-align: center;
   font-size: 16px;
   font-family: var(--text-font-family);
@@ -123,7 +124,8 @@ ul {
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.our-team .job-title {
+.our-team .job-title,
+.job-title {
   color: #757575;
   text-align: center;
   font-size: 16px;
@@ -133,8 +135,17 @@ ul {
   line-height: normal;
   letter-spacing: 0.48px;
 }
+.image-title {
+  color: var(--titles-color);
+  font-size: 18px;
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
 .info-team .info-company {
-  color: #212121;
+  color: var(--titles-color);
   text-align: center;
   font-size: 36px;
   font-family: var(--heading-font-family);
